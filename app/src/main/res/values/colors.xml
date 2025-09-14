@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colores principales del tema -->
+    <color name="colorPrimary">#0288D1</color>
+    <color name="colorPrimaryDark">#0277BD</color>
+    <color name="colorAccent">#FFC107</color>
+
+    <!-- Fondo general de la app -->
+    <color name="colorBackground">#0288D1</color>
+
+    <!-- Texto -->
+    <color name="colorTextPrimary">#000000</color>
+
+    <!-- Botones personalizados -->
+    <color name="colorBotonPrincipal">#F4A300</color>
+    <color name="colorAccentOrange">#FFA726</color>
+
+</resources>

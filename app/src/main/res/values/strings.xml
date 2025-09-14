@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Escuela</string>
+    <string name="login_email_hint">Correo electrónico</string>
+    <string name="login_password_hint">Contraseña</string>
+    <string name="login_button">Entrar</string>
+    <string name="register_button">Registrarse</string>
+    <string name="login_error">Error al iniciar sesión</string>
+    <string name="register_email_hint">Correo electrónico</string>
+    <string name="register_password_hint">Contraseña</string>
+    <string name="register_error">Error al registrar</string>
+    <string name="error_empty_fields">Todos los campos son obligatorios</string>
+    <string name="welcome_message">Bienvenido a Escuela</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">@color/colorTextPrimary</item> <!-- Negro -->
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+
+    <style name="CustomEditText" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textColor">@color/colorTextPrimary</item> <!-- Negro -->
+        <item name="android:textColorHint">@color/colorPrimaryDark</item> <!-- Azul oscuro -->
+        <item name="android:padding">12dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del estudiante"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textGrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Grado: "
+        android:textStyle="bold"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="12dp" />
+
+    <Spinner
+        android:id="@+id/spinnerMateria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtNuevaNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva nota"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="16dp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnActualizarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR NOTA"
+        android:textColor="@color/colorTextPrimary"
+        android:backgroundTint="@color/colorAccentOrange"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnEliminarNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR NOTA"
+        android:textColor="@color/colorTextPrimary"
+        android:backgroundTint="@color/colorAccentOrange" />
+
+</LinearLayout>

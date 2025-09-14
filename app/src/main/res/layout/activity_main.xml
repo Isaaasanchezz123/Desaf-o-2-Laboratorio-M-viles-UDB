@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0288D1"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnRegistrarEstudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR ESTUDIANTE"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnRegistrarNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="REGISTRAR NOTA"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnVerEstudiantesFinal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VER ESTUDIANTES Y NOTAS FINALES"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnActualizarEstudiante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR / ELIMINAR ESTUDIANTE"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnActualizarNota"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACTUALIZAR / ELIMINAR NOTA"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CERRAR SESIÓN"
+            android:textColor="@android:color/black"
+            android:backgroundTint="#FFC107"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

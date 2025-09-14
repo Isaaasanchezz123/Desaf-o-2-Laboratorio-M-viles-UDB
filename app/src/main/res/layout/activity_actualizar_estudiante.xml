@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorBackground">
+
+    <AutoCompleteTextView
+        android:id="@+id/autoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del estudiante"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtNuevoGrado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nuevo grado"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="16dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtNuevaEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nueva edad"
+        android:background="@drawable/edittext_background"
+        android:padding="12dp"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginBottom="16dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnActualizarEstudiante"
+        android:backgroundTint="#FFC107"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR ESTUDIANTE"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnEliminarEstudiante"
+        android:backgroundTint="#FFC107"
+        android:textColor="@android:color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR ESTUDIANTE" />
+
+</LinearLayout>
