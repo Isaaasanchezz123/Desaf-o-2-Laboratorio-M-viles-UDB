@@ -1,2 +1,5 @@
-# Desaf-o-2-Laboratorio-M-viles-UDB
-Entrega del Desafío 2 de un APP escolar 
+# Desafio 2 Laboratorio Moviles UDB
+La aplicación escolar desarrollada como parte del proyecto académico tiene como objetivo principal facilitar la gestión de estudiantes y el control de sus calificaciones dentro de una institución educativa. Esta herramienta digital permite el ingreso eficiente de datos personales de los alumnos, así como la edición y actualización de sus notas en distintas materias, brindando una solución práctica y accesible para docentes y personal administrativo.
+La interfaz de la app ha sido diseñada pensando en la simplicidad y funcionalidad, permitiendo que los usuarios puedan navegar de forma intuitiva entre las distintas secciones. Desde el registro de nuevos estudiantes hasta la modificación de sus evaluaciones, cada módulo responde a necesidades reales del entorno escolar, optimizando tiempos y reduciendo errores en el manejo de la información académica.
+Este proyecto busca no solo cumplir con los requerimientos técnicos del curso, sino también demostrar cómo una solución informática puede impactar positivamente en la organización y transparencia de los procesos educativos. La aplicación representa una propuesta escalable que podría integrarse en sistemas más amplios de gestión escolar, adaptándose a distintos niveles y contextos educativos.
+
